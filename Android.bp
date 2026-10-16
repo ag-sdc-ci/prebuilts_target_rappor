@@ -1,0 +1,24 @@
+// Auto-generated prebuilt Blueprint for external/rappor
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.rappor
+
+package {
+    default_applicable_licenses: ["external_rappor_license"],
+}
+
+license {
+    name: "external_rappor_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}
+
+java_import {
+    name: "rappor",
+    jars: ["share/rappor/rappor.jar"],
+    host_supported: true,
+    prefer: true,
+}

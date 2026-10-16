@@ -1,0 +1,6 @@
+shadow prebuilt repo: rappor (target)
+  upstream: external/rappor
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.rappor.apex
+  dev-src: extracted extractive payload (share/rappor/rappor.jar) + root Android.bp
+  date: 2026-10-16
